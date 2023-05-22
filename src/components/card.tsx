@@ -1,7 +1,7 @@
 export default function Card() {
     return (
         <div>
-            <p>Test card</p>
+            <p>Card test</p>
         </div>
     )
 }
