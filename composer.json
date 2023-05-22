@@ -1,0 +1,15 @@
+{
+    "name": "asus/planit-poker",
+    "autoload": {
+        "psr-4": {
+            "Asus\\PlanitPoker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nathannicolle",
+            "email": "nathan-nicolle@orange.fr"
+        }
+    ],
+    "require": {}
+}
