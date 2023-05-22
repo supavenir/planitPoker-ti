@@ -26,3 +26,4 @@ replay_pid*
 target
 /vendor/
 node_modules/
+.next/
