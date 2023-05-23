@@ -1,11 +1,13 @@
 import HttpService from "@/services/HttpService";
 
 export interface Room{
-    id: number;
     name: string;
     description: string;
     points: number;
-    uuid: string;
+    connectedUsers: string;
+    idOwner: number;
+    idSuite: number;
+    idTeam: number;
 }
 
 export default class RoomService{
@@ -18,11 +20,12 @@ export default class RoomService{
         return HttpService.get('rooms');
     }
 
-    static add(room: Room): Promise<Room> {
-        return HttpService.post('rooms', room);
+    static add(room: Room): Promise<any> {
+        console.log("room : " + room.name + " " + room.description + " " + room.points + " " + room.connectedUsers);
+        return HttpService.post('rooms', room, {'Content-Type': 'application/json'});
     }
 
     static delete(id: number): Promise<Room> {
-        return HttpService.delete('rooms/'+id);
+        return HttpService.delete('rooms'+id);
     }
 }
