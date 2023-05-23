@@ -12,7 +12,7 @@ function RoomPage({rooms}:{rooms:Room[]}) {
   );
 }
 
-let getServerSideProps = async (context) => {
+let getServerSideProps = async (context:any) => {
     const userId:number = context.query.id as number;
     console.log(userId)
     let rooms=await RoomService.getUserRooms(userId);
