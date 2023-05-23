@@ -1,4 +1,4 @@
-export const API_URL = 'http://127.0.0.1:8090';
+export const API_URL = 'http://127.0.0.1:8090/api/';
 //Wrapper for the fetch api
 class HttpService {
     static get(url: string, headers?: any): Promise<any> {
