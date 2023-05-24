@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/vote.js"
-    ],
-    "/vote/vote": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/vote/vote.js"
     ]
   },
   "ampFirstPages": []
