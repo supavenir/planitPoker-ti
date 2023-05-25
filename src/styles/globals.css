@@ -1,5 +1,6 @@
 * {
   color: black;
+  font-family: sans-serif;
 }
 
 .card {
@@ -10,11 +11,17 @@
     height: 220px;
 }
 
+.card:hover {
+    cursor: pointer;
+    background:  #a6a6a6;
+}
+
 .card h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 2em;
 }
 
 .title {
