@@ -2,7 +2,7 @@ import Card from '@/components/card';
 
 export default function Vote() {
     return (
-        <div>
+        <div className="vote_container">
             <h1 className="title">Page vote</h1>
             <div className="cards_row">
                 <Card content="0"></Card>
@@ -18,6 +18,16 @@ export default function Vote() {
                 <Card content="20"></Card>
                 <Card content="40"></Card>
             </div>
+
+            <div className="cards_row">
+                <Card content="100"></Card>
+                <Card content="?"></Card>
+                <Card content="☕"></Card>
+            </div>
+
+            <aside className="rightBar">
+                <h3>John DOE</h3>
+            </aside>
         </div>
     );
 }
