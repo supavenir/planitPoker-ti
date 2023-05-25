@@ -9,6 +9,7 @@
     width: 158px;
     text-align: center;
     height: 220px;
+    margin-right: 2%;
 }
 
 .card:hover {
@@ -22,10 +23,16 @@
   align-items: center;
   height: 100%;
   font-size: 2em;
+  margin-top: 0;
 }
 
 .title {
   color: black !important;
+}
+
+.cards_row {
+    display: flex;
+    margin-bottom: 2%;
 }
 
 :root {
