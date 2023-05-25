@@ -1,4 +1,23 @@
-h1 {
+* {
+  color: black;
+}
+
+.card {
+    background: #D9D9D9;
+    border-radius: 20px;
+    width: 158px;
+    text-align: center;
+    height: 220px;
+}
+
+.card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
   color: black !important;
 }
 

@@ -1,7 +1,7 @@
 export default function Card() {
     return (
-        <div>
-            <p>Card</p>
+        <div className="card">
+            <h2>0</h2>
         </div>
     )
 }
