@@ -28,7 +28,7 @@ export default function Vote() {
 
             <aside className="rightBar">
                 <h3>John DOE</h3>
-                <Timer minutes="01" seconds="30"></Timer>
+                <Timer minutes="1" seconds="30"></Timer>
             </aside>
         </div>
     );
