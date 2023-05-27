@@ -1,4 +1,5 @@
 import Card from '@/components/card';
+import Timer from "@/components/timer";
 
 export default function Vote() {
     return (
@@ -27,6 +28,7 @@ export default function Vote() {
 
             <aside className="rightBar">
                 <h3>John DOE</h3>
+                <Timer minutes="01" seconds="30"></Timer>
             </aside>
         </div>
     );

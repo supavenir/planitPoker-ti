@@ -52,6 +52,13 @@
     text-align: center;
 }
 
+.timer {
+    position: absolute;;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
