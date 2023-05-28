@@ -1,6 +1,7 @@
 import HttpService from "@/services/HttpService";
 
 export interface Suite {
+    id: number;
     name: string;
     description: string;
     points: number;
